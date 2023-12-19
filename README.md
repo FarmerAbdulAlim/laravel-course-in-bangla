@@ -4,13 +4,20 @@
 
 **_এই নোটের প্রতিটা টপিক যখন তার নিজ নিজ Chapter এ সুন্দর করে লিখা শেষ হয়ে যাবে, তখন এই Draft Note Section Delete করে দিতে হবে_**
 
+### MVC
+
 - MVC(Model View Controller): Software কে তিনভাগ করে বা Source Codes কে তিনভাগ করে Develop করার পদ্ধতি। MVC ছাড়াও আরও অনেক পদ্ধতি আছে।
-- Model = Data Structure, View = The Visible Part of The Application, Controller = Logics of The Application. View এবং Model এর মাঝে Controller via হয়ে কাজ করে। Controller একটা Bridge এর মতো কাজ করতেছে। Controller এর সাথে View এবং Model এর সরাসরি সম্পর্ক আছে, কিন্তু View এর সাথে Model এর কোন সরাসরি সম্পর্ক নেই।  
+- Model = Data Structure, View = The Visible Part of The Application, Controller = Logics of The Application. View এবং Model এর মাঝে Controller via হয়ে কাজ করে। Controller একটা Bridge এর মতো কাজ করতেছে। Controller এর সাথে View এবং Model এর সরাসরি সম্পর্ক আছে, কিন্তু View এর সাথে Model এর কোন সরাসরি সম্পর্ক নেই।
 
 ![](./images/1.png)
 
-- Laravel এ `route/web.php` file এ Route এর Defination লিখা হয়। 
+- Laravel এ `route/web.php` file এ Route এর Defination লিখা হয়।
 
+### @csrf
+
+- @csrf directive, CSRF টোকেন ধারণকারী একটি hidden input field তৈরি করে। এই hidden input field টি স্বয়ংক্রিয়ভাবে ফর্মটিতে অন্তর্ভুক্ত হয় যখন এটি রেন্ডার করা হয়।
+- যখন কোন User ফর্মটি জমা দেয়, তখন ফর্ম ডেটা সহ CSRF টোকেন পাঠানো হয়।
+- Laravel মিডলওয়্যার Request টি বৈধ কিনা তা নিশ্চিত করতে সেশনে সংরক্ষিত টোকেন এর সাথে submitted token পরীক্ষা করে।
 
 <font color="red">END: Draft Note Section</font>
 

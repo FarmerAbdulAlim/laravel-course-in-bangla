@@ -31,7 +31,7 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 
 |                                         Chapter                                         |                                        Topics                                         | Video Explanation |
 | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :---------------: |
-|                      [00](#chapter-00-how-the-course-is-designed)                       |                      [](#chapter-00-how-the-course-is-designed)                       |   [Watch Now]()   |
+|                      [00](#chapter-00-how-the-course-is-designed)                       |                      [How the course is designed](#chapter-00-how-the-course-is-designed)                       |   [Watch Now]()   |
 | [01](#chapter-01-what-is-nextjs-features-of-nextjs-environment-setup-project-structure) | [](#chapter-01-what-is-nextjs-features-of-nextjs-environment-setup-project-structure) |   [Watch Now]()   |
 |                 [02](#chapter-02-html-quotation-link-image-and-favicon)                 |                 [](#chapter-02-html-quotation-link-image-and-favicon)                 |     Watch Now     |
 |    [03](#chapter-03-html-table-list-iframes-code-tag-semantic-element-and-entities)     |    [](#chapter-03-html-table-list-iframes-code-tag-semantic-element-and-entities)     |     Watch Now     |
@@ -91,8 +91,33 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 - Basic of PHP
 
 <div align="right">
-    <b><a href="#learn-html-and-css-in-60-chapters">↥ Go to Top</a></b>
+    <b><a href="#learn-laravel-in-30-chapters">↥ Go to Top</a></b>
 </div>
+
+# Chapter-01: What is Laravel, Why Laravel, Features of Laravel Environment Setup, Creating First Project, MVC Design Pattern
+
+- [What is Laravel](#what-is-laravel)
+- [Why Laravel]()
+
+## What is Laravel
+- Laravel হলো একটি Free এবং Open Source এর PHP Web Framework।
+- এটি Taylor Otwell(টেলর অটওয়েল) দ্বারা তৈরি করা হয়েছিল। 2011 সালে প্রথম Laravel Released করা হয়।
+- লারাভেল মডেল-ভিউ-কন্ট্রোলার (MVC) আর্কিটেকচারাল প্যাটার্ন অনুসরণ করে, যা More Organized and Structured Way তে Developers দের Code করতে সাহায্য করে।
+
+## Why Laravel
+
+1. পৃথিবীতে সমস্ত Website এর 77% Website PHP দিয়ে তৈরি করা।
+2. MVC(Model View Controller) Design Pattern.
+3. যেকোনো Software এর Backend হিসেবে Laravel ব্যবহার করা যায়। সেটা হতে পারে Web Application, Mobile App, Desktop Application, IOT Device ইত্যাদি।
+4. একই Code ব্যবহার করে ভিন্ন ভিন্ন Database (যেমনঃ MySQL, MS SQL, SQLite) এর সাথে Communicate করা যায়। 
+
+<div align="right">
+    <b><a href="#learn-laravel-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+
+
+
 
 # Project-01: Simple Website Layout with Float
 

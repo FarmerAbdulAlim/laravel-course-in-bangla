@@ -31,7 +31,7 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 
 |                                         Chapter                                         |                                        Topics                                         | Video Explanation |
 | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :---------------: |
-|                      [00](#chapter-00-how-the-course-is-designed)                       |                      [How the course is designed](#chapter-00-how-the-course-is-designed)                       |   [Watch Now]()   |
+|                      [00](#chapter-00-how-the-course-is-designed)                       |         [How the course is designed](#chapter-00-how-the-course-is-designed)          |   [Watch Now]()   |
 | [01](#chapter-01-what-is-nextjs-features-of-nextjs-environment-setup-project-structure) | [](#chapter-01-what-is-nextjs-features-of-nextjs-environment-setup-project-structure) |   [Watch Now]()   |
 |                 [02](#chapter-02-html-quotation-link-image-and-favicon)                 |                 [](#chapter-02-html-quotation-link-image-and-favicon)                 |     Watch Now     |
 |    [03](#chapter-03-html-table-list-iframes-code-tag-semantic-element-and-entities)     |    [](#chapter-03-html-table-list-iframes-code-tag-semantic-element-and-entities)     |     Watch Now     |
@@ -97,9 +97,11 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 # Chapter-01: What is Laravel, Why Laravel, Features of Laravel Environment Setup, Creating First Project, MVC Design Pattern
 
 - [What is Laravel](#what-is-laravel)
-- [Why Laravel]()
+- [Why Laravel](#why-laravel)
+- [Features of Laravel](#features-of-laravel)
 
 ## What is Laravel
+
 - Laravel হলো একটি Free এবং Open Source এর PHP Web Framework।
 - এটি Taylor Otwell(টেলর অটওয়েল) দ্বারা তৈরি করা হয়েছিল। 2011 সালে প্রথম Laravel Released করা হয়।
 - লারাভেল মডেল-ভিউ-কন্ট্রোলার (MVC) আর্কিটেকচারাল প্যাটার্ন অনুসরণ করে, যা More Organized and Structured Way তে Developers দের Code করতে সাহায্য করে।
@@ -109,15 +111,23 @@ While you complete the 30-chapter module, jump in the [Projects Section](#).
 1. পৃথিবীতে সমস্ত Website এর 77% Website PHP দিয়ে তৈরি করা।
 2. MVC(Model View Controller) Design Pattern.
 3. যেকোনো Software এর Backend হিসেবে Laravel ব্যবহার করা যায়। সেটা হতে পারে Web Application, Mobile App, Desktop Application, IOT Device ইত্যাদি।
-4. একই Code ব্যবহার করে ভিন্ন ভিন্ন Database (যেমনঃ MySQL, MS SQL, SQLite) এর সাথে Communicate করা যায়। 
+4. একই Code ব্যবহার করে ভিন্ন ভিন্ন Database (যেমনঃ MySQL, MS SQL, SQLite) এর সাথে Communicate করা যায়।
+
+## Features of Laravel
+
+1. **MVC Architecture:**
+2. **Eloquent ORM (Object-Relational Mapper):** Eloquent ORM হলো একটি Software যা ডেভেলপারদের একটি অবজেক্ট-ওরিয়েন্টেড সিনট্যাক্স ব্যবহার করে ডাটাবেসের সাথে ইন্টারঅ্যাক্ট করতে দেয়, ডাটাবেস অপারেশনগুলিকে আরও সহজবোধ্য করে তোলে। ডেভেলপাররা Eloquent দিয়ে ActiveMethod implementation ব্যবহার করে দক্ষতার সাথে একাধিক ডাটাবেসের সাথে কাজ করতে পারে। এটি একটি আর্কিটেকচারাল প্যাটার্ন যেখানে মডেল-ভিউ-কন্ট্রোলার (MVC) কাঠামোতে তৈরি একটি Model ডাটাবেসের একটি Table এর সাথে মিলে যায়। সুবিধা হল মডেলগুলি দীর্ঘ SQL Query কোডিং ছাড়াই সাধারণ database operations করতে পারে। বিভিন্ন সিস্টেমে চলমান একাধিক ডাটাবেস সিঙ্ক্রোনাইজ করার প্রক্রিয়া সহজ করা হয়েছে। SQL Query লেখার দরকার নেই। আপনাকে যা করতে হবে তা হল Database Tables এবং তাদের মধ্যে সম্পর্ক নির্ধারণ করা এবং বাকী কাজ Eloquent করবে।
+3. **Blade Template Engine:** Blade Template Engine যেসব Features দেয় তার মধ্যে Template Inheritance, Sections and Includes. এগুলোর মাধ্যমে খুব সহজে Dynamic এবং Re-useable Views তৈরি করা যায়।
+4. **Artisan Console**
+5. **Middleware:** Laravel আপনার অ্যাপ্লিকেশনে প্রবেশ করা HTTP Requests ফিল্টার করতে Middleware ব্যবহার করে। Authentication, Login এগুলোর জন্য Middleware ব্যবহার করা যেতে পারে। Laravel এর বেশকিছু Built-in Middlewares আছে, এছাড়া প্রয়োজন অনুসারে Custome Middleware তৈরি করা যায়।
+6. **Routing:**
+7. **Authentication and Authorization:** Authentication and Authorization এর জন্য Laravel এর কিছু pre-built features আছে যেমনঃ user registration, password reset ইত্যাদি।
+8. **Database Migrations and Seeding:** Laravel, Migration এর মাধ্যমে Database Management করে। এর মাধ্যমে Developers রা Version Control Database Schema'র সুবিধাসমুহ পেয়ে থাকে।
+9. **Testing Support:** Laravel এর built-in testing Framework আছে, যেমনঃ PHPUnit.
 
 <div align="right">
     <b><a href="#learn-laravel-in-30-chapters">↥ Go to Top</a></b>
 </div>
-
-
-
-
 
 # Project-01: Simple Website Layout with Float
 
